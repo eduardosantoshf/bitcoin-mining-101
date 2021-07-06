@@ -159,16 +159,16 @@ Therefore, when a puzzle is solved and a Bitcoin has been generated, the ledger 
 
 Now that we understand how people mine and how does this influences the Blockchain, how much are miners rewarded when they solve a puzzle?
 
-The reward per block was 50 Bitcoin, back in 2008, however, the rewards is halved every 210 000 blocks that are solved. Blocks are solved at an average of one block every 10 minutes, this means that the reward per block halves around every 4 years. The most recent halving occurred in July of 2020, meaning that current reward per block is 6.25 Bitcoin.
+The reward per block was 50 Bitcoin, back in 2008, however, the rewards is halved every 210 000 blocks that are solved. Blocks are solved at an average of one block every 10 minutes, this means that the reward per block halves around every 4 years. The most recent halving occurred in July of 2020, meaning that the current reward per block is 6.25 Bitcoin.
 
 All recent reports state that there is roughly 18 million Bitcoin currently in circulation, However, we can cross-reference this figure by following this calculation:
 
 \[(50 x 210 000) + (25 x 210 000) + (12.5 x 210 000) + (6.25 x 210 000) = 18 375 000\]
 
- By calculating this number, we are able to confirm that there are at least \(18 375 000\) Bitcoin in circulation as of July 2020.
+ By calculating this number, we are able to confirm that there are at least 18 375 000 Bitcoin in circulation as of July 2020.
  
  So how does the formula of halving the Bitcoin reward after each 210 000 puzzles solved, effect the long-term generation of Bitcoin?
- When Bitcoin was created, there were many stipulations enforced by specific coding, one of this rules is that the total number of Bitcoin must be limited and therefore have a finite suply. The cap was set so that, when the final puzzle is solved, there would only ever be a cumulative amount of 21 million Bitcoins. By following the same logic that we applied how much Bitcoin is currently in circulation, we can also estimate when the last Bitcoin will be mined.
+ When Bitcoin was created, there were many stipulations enforced by specific coding, one of this rules is that the total number of Bitcoin must be limited and therefore have a finite supply. The cap was set so that, when the final puzzle is solved, there would only ever be a cumulative amount of 21 million Bitcoins. By following the same logic that we applied how much Bitcoin is currently in circulation, we can also estimate when the last Bitcoin will be mined.
  
  The main factor to consider is that the reward is halved once in every 4 year increment, so the final mining date can be determined as follows: In 2008, the initial reward was 50 Bitcoin per block. So, to find out when Bitcoin will be depleted, we just need to keep on halving 50 until we reach 0, meaning that there is no reward per block because there is no Bitcoin left to be mined. 50 can be halved 33 times before it reaches 0, and there have been 3 halvings already. This means that there are 30 halvings remaining before Bitcoin has been depleted.
  
@@ -180,12 +180,90 @@ All recent reports state that there is roughly 18 million Bitcoin currently in c
  
  Linking back to the metaphor we used before, this is equivalent to all the mines on this planet being drained and, consequently, the planet Earth being depleted of the limited finite resources that it once had.
  
- So, if this is the case, why isn't everyone mining now, in order to get Bitcoin while reward per block is still considerably high?
- 
- 
-
+ So, if this is the case, why isn't everyone mining now, in order to get Bitcoin while reward per block is still considerably high? We will talk about that on the next section.
  
  \subsection{Is Bitcoin mining worth it?}
+ 
+ \tab When Bitcoin was created, a very specific set of rules were implemented to allow for sustained mining. These rules abide by the following characteristic: The more mining power the network has, the harder it is to solve the puzzles that the system generates.
+ 
+ There is a positive correlation between mining power and the system's mining difficulty. In other words, the more miners there are on the system trying to solve the puzzle, the harder it will be for them to do so. This means that the algorithmic puzzles are a self-adjusting mechanism.
+ 
+ The rule of the adjustment works in parallel, so if there are less miners working on the puzzle, it will be easier to solve. In essence, this creates an equilibrium between the mining power and mining difficulty.
+ 
+ As the years have passed, Bitcoin has evolved from an emerging to an established market. Consequently, the mining capability has excelled exponentially due to the saturation of miners looking to solve puzzles and earn Bitcoin. This means that, over time, more miners have begun utilizing the most powerful and advanced technology, creating very high barriers to entry for new miners.
+ 
+ So, how do these rules allow for sustained mining? 
+ 
+ These rules dictate the rate at which puzzles can be solved, it is because of these rules that a puzzle is solved, on average, every 10 minutes, and, therefore, allows the reward per block to consistently halve every 4 years. This means that, before the first halving even took place, it was already dictated how often new Bitcoin would be added to the system.
+ 
+ Because there is only a finite amount of Bitcoin to be mined, the implementation of these rules regulates the rate at which new Bitcoin is generated, allowing the process to be sustained for a predetermined period of time. Due to the restricted time in which new Bitcoin is distributed, the supply is limited for a prolonged duration, and, therefore, results in Bitcoin being less subject to inflationary pressure from centralized banks and governments. 
+ 
+ But why is Bitcoin less subject to inflation then money from centralized institutions?
+ 
+ As we've seen previously, Bitcoin is finite, whereas money is unlimited in quantity, because it is reproducible. Governments and banks can print more money whenever they want, and this is a significant cause of inflation. When more money is printed, the value of the currency itself decreases, when a currency decreases in value, and inflation has taken effect, people often only talk about prices rising, however, the reality of this is that, due to an increase in the supply of money, its value has fallen, causing a decline in purchasing power, meaning that we are able to buy less with the same amount that we could before.
+ In summary, we need more money to buy something that costs less in the past.
+ 
+ To mine Bitcoins, there are a lot of factors we depend on:
+ \begin{itemize}
+     \item Hashrate
+     \item Bitcoin reward
+     \item Mining difficulty
+     \item Electricity cost
+     \item Power consumption
+     \item Pool fees
+     \item Bitcoin's price
+     \item Difficulty increase per year
+ \end{itemize}
+ 
+ \subsubsection{Hashrate}
+ 
+ In bitcoin's case, a Hash is the puzzle we previously mentioned that a miner has to solve. The Hashrate is a miner's hardware performance, and it means the number of guesses to the right solution a miner can make per second.
+ 
+ The Hashrate is usually measured in:
+ 
+ \begin{itemize}
+     \item \textbf{MH/s} - Mega Hash per second (Mega = \(10^6\));
+     \item \textbf{GH/s} - Giga Hash per second (Giga = \(10^9\));
+     \item \textbf{TH/s} - Thera Hash per second (Thera = \(10^{12}\));
+     \item \textbf{PH/s} - Peta Hash per second (Peta = \(10^{15}\)).
+ \end{itemize}
+ 
+ \subsubsection{Bitcoin reward}
+ 
+ This represents the number of Bitcoins generated when a miner finds a solution to a puzzle. As mentioned before, the current reward per block is 6.25 Bitcoin.
+ 
+ \subsubsection{Mining difficulty}
+ 
+ The mining difficulty is measured by a number that represents how hard is to mine Bitcoins at a specific time. This number takes into consideration the amount of mining power at that specific time.
+ 
+ \subsubsection{Electricity cost}
+ 
+ To calculate if mining Bitcoins is profitable, we need to our electricity cost, this value comes in our monthly electricity bills, and can be quite high due to the electricity needed to power the miner, as well as to cool it, because of the high temperatures it can reach.
+ 
+ \subsubsection{Power consumption}
+ 
+ The power consumption can vary from miner to miner, that's why we need to find the power consumption for our specific miner, in order to calculate his profitability.  
+ 
+ Power consumption is usually measured in \textit{W\footnote{Watt}}.
+ 
+ \subsubsection{Pool fees}
+ 
+ We can think of mining as a competitive game, this game happens between all the current miners on the network. 
+ 
+ Even if we have a good and expensive mining system, we are in disadvantage against profession mining farms. To mitigate this disadvantage, we have something called mining pools.
+ 
+ Mining pools, as the name suggests, are groups of miners that work together and combine their mining power in order to compete more equitably. If the pool is the fastest to solve the puzzle, the earning are spread between the pool members, depending on how much each one of the miners contributed.
+ 
+ %image mining pools: https://academy.bit2me.com/wp-content/uploads/2019/06/pools-mineria-bitcoin.webp
+ 
+ \subsubsection{Bitcoin's price}
+ 
+ Because of the volatility of Bitcoin's price, it is almost impossible to know wether it will be profitable. And this uncertainty has a significant impact on profitability.
+ 
+ %image bitcoin price: https://uphold.com/en/prices/crypto/bitcoin-price
+ \subsubsection{Difficulty increase per year}
+ 
+ \subsection{What do I need to mine bitcoins?}
  
  
  
