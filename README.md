@@ -1,4 +1,4 @@
-# APSEIThirdProject
+# APSEI Third Project
 
 This assignment’s objective is not to explain what Bitcoin or other cryptocurrencies are, as it assumes that that is already known.
 
