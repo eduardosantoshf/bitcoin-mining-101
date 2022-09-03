@@ -1,8 +1,6 @@
 # APSEI Third Project
 
-This assignment’s objective is not to explain what Bitcoin or other cryptocurrencies are, as it assumes that that is already known.
-
-Instead, it is related to Bitcoin mining, trying to explain it in the simplest possible way, so that anyone can understand how it works and, if wanted, can start to mine Bitcoins right away.
+This assignment’s objective is related to Bitcoin mining, trying to explain it in the simplest possible way, so that anyone can understand how it works and, if wanted, can start to mine Bitcoins right away.
 
 ## Topics Approached
 
