@@ -27,5 +27,8 @@ Instead, it is related to Bitcoin mining, trying to explain it in the simplest p
 ## Course
 This project was developed under the [Professional and Social Aspects of Computer Science](https://www.ua.pt/en/uc/12271) course of [University of Aveiro](https://www.ua.pt/).
 
+## Grade 
+This project's grade was **17** out of 20.
+
 ## Authors
 * **Eduardo Santos**: [eduardosantoshf](https://github.com/eduardosantoshf)
